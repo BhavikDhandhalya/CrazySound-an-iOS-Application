@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56BC92C61A470267009F72DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC92C51A470267009F72DF /* AppDelegate.swift */; };
+		56BC92C81A470267009F72DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC92C71A470267009F72DF /* ViewController.swift */; };
+		56BC92CB1A470267009F72DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BC92C91A470267009F72DF /* Main.storyboard */; };
+		56BC92CD1A470267009F72DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BC92CC1A470267009F72DF /* Images.xcassets */; };
+		56BC92D01A470267009F72DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BC92CE1A470267009F72DF /* LaunchScreen.xib */; };
+		56BC92DC1A470267009F72DF /* CrazySoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC92DB1A470267009F72DF /* CrazySoundTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56BC92D61A470267009F72DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56BC92B81A470266009F72DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56BC92BF1A470267009F72DF;
+			remoteInfo = CrazySound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56BC92C01A470267009F72DF /* CrazySound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazySound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BC92C41A470267009F72DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BC92C51A470267009F72DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56BC92C71A470267009F72DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56BC92CA1A470267009F72DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56BC92CC1A470267009F72DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56BC92CF1A470267009F72DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		56BC92D51A470267009F72DF /* CrazySoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazySoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BC92DA1A470267009F72DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BC92DB1A470267009F72DF /* CrazySoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazySoundTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56BC92BD1A470267009F72DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BC92D21A470267009F72DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56BC92B71A470266009F72DF = {
+			isa = PBXGroup;
+			children = (
+				56BC92C21A470267009F72DF /* CrazySound */,
+				56BC92D81A470267009F72DF /* CrazySoundTests */,
+				56BC92C11A470267009F72DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56BC92C11A470267009F72DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56BC92C01A470267009F72DF /* CrazySound.app */,
+				56BC92D51A470267009F72DF /* CrazySoundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56BC92C21A470267009F72DF /* CrazySound */ = {
+			isa = PBXGroup;
+			children = (
+				56BC92C51A470267009F72DF /* AppDelegate.swift */,
+				56BC92C71A470267009F72DF /* ViewController.swift */,
+				56BC92C91A470267009F72DF /* Main.storyboard */,
+				56BC92CC1A470267009F72DF /* Images.xcassets */,
+				56BC92CE1A470267009F72DF /* LaunchScreen.xib */,
+				56BC92C31A470267009F72DF /* Supporting Files */,
+			);
+			path = CrazySound;
+			sourceTree = "<group>";
+		};
+		56BC92C31A470267009F72DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56BC92C41A470267009F72DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56BC92D81A470267009F72DF /* CrazySoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				56BC92DB1A470267009F72DF /* CrazySoundTests.swift */,
+				56BC92D91A470267009F72DF /* Supporting Files */,
+			);
+			path = CrazySoundTests;
+			sourceTree = "<group>";
+		};
+		56BC92D91A470267009F72DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56BC92DA1A470267009F72DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56BC92BF1A470267009F72DF /* CrazySound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56BC92DF1A470267009F72DF /* Build configuration list for PBXNativeTarget "CrazySound" */;
+			buildPhases = (
+				56BC92BC1A470267009F72DF /* Sources */,
+				56BC92BD1A470267009F72DF /* Frameworks */,
+				56BC92BE1A470267009F72DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazySound;
+			productName = CrazySound;
+			productReference = 56BC92C01A470267009F72DF /* CrazySound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56BC92D41A470267009F72DF /* CrazySoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56BC92E21A470267009F72DF /* Build configuration list for PBXNativeTarget "CrazySoundTests" */;
+			buildPhases = (
+				56BC92D11A470267009F72DF /* Sources */,
+				56BC92D21A470267009F72DF /* Frameworks */,
+				56BC92D31A470267009F72DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56BC92D71A470267009F72DF /* PBXTargetDependency */,
+			);
+			name = CrazySoundTests;
+			productName = CrazySoundTests;
+			productReference = 56BC92D51A470267009F72DF /* CrazySoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56BC92B81A470266009F72DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = R0b;
+				TargetAttributes = {
+					56BC92BF1A470267009F72DF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					56BC92D41A470267009F72DF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 56BC92BF1A470267009F72DF;
+					};
+				};
+			};
+			buildConfigurationList = 56BC92BB1A470266009F72DF /* Build configuration list for PBXProject "CrazySound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56BC92B71A470266009F72DF;
+			productRefGroup = 56BC92C11A470267009F72DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56BC92BF1A470267009F72DF /* CrazySound */,
+				56BC92D41A470267009F72DF /* CrazySoundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56BC92BE1A470267009F72DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BC92CB1A470267009F72DF /* Main.storyboard in Resources */,
+				56BC92D01A470267009F72DF /* LaunchScreen.xib in Resources */,
+				56BC92CD1A470267009F72DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BC92D31A470267009F72DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56BC92BC1A470267009F72DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BC92C81A470267009F72DF /* ViewController.swift in Sources */,
+				56BC92C61A470267009F72DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BC92D11A470267009F72DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BC92DC1A470267009F72DF /* CrazySoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56BC92D71A470267009F72DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56BC92BF1A470267009F72DF /* CrazySound */;
+			targetProxy = 56BC92D61A470267009F72DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56BC92C91A470267009F72DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BC92CA1A470267009F72DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56BC92CE1A470267009F72DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BC92CF1A470267009F72DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56BC92DD1A470267009F72DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56BC92DE1A470267009F72DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56BC92E01A470267009F72DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazySound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56BC92E11A470267009F72DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazySound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		56BC92E31A470267009F72DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrazySoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazySound.app/CrazySound";
+			};
+			name = Debug;
+		};
+		56BC92E41A470267009F72DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrazySoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazySound.app/CrazySound";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56BC92BB1A470266009F72DF /* Build configuration list for PBXProject "CrazySound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BC92DD1A470267009F72DF /* Debug */,
+				56BC92DE1A470267009F72DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56BC92DF1A470267009F72DF /* Build configuration list for PBXNativeTarget "CrazySound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BC92E01A470267009F72DF /* Debug */,
+				56BC92E11A470267009F72DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56BC92E21A470267009F72DF /* Build configuration list for PBXNativeTarget "CrazySoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BC92E31A470267009F72DF /* Debug */,
+				56BC92E41A470267009F72DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56BC92B81A470266009F72DF /* Project object */;
+}
